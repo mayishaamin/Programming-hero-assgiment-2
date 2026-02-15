@@ -1,1 +1,20 @@
-@import "tailwindcss"
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@theme {
+    --font-family-inter: "Inter", sans-serif;
+}
+
+@import "tailwindcss";
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+/* @tailwind utilities;
+@layer components{
+    .btn{
+        @apply animate-pulse bg-gradient-to-r from-yellow-300 via-red-400 to-indigo-500 hover:to-black  text-white px-5 py-2 rounded-full text-sm font-medium flex items-center gap-1 shadow-md hover:shadow-lg transition-all;
+    }
+} */
+
+

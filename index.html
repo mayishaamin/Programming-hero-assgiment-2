@@ -3,10 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>    
     <title>Techwave</title>
-</head>
-<body>
     
+</head>
+<body class="p-0 m-0">
+    <header class="bg-blue-950 pt-1 py-2 px-9">
+        <nav class="text-amber-50 flex justify-between items-center ">
+            <div class=" ">
+                <h2 class="text-3xl font-bold ">Tech<span class="text-3xl md:text-2xl lg:text-4xl font-bold bg-gradient-to-r from-yellow-300 via-red-400 to-indigo-400 text-transparent bg-clip-text inline-block " >Wave</span></h2>
+            </div>
+            <div class="block lg:hidden">
+                <img src="assets/hamburger-menu.png">
+            </div>
+            <ul class=" hidden lg:flex gap-2.5">
+                <li class=""><a href="">About</a></li>
+                <li><a href=""> Episodes</a></li>
+                <li><a href="">Host</a></li>
+                <!-- <li ><button>Subscribe</button></li> -->
+            </ul>
+        <div class=" hidden lg:block "><button class="animate-pulse bg-gradient-to-r from-yellow-300 via-red-400 to-indigo-500 hover:to-black  text-white px-5 py-2 rounded-full text-sm font-medium flex items-center gap-1 shadow-md hover:shadow-lg transition-all">Subscribe<span class="text-lg leading-none">→</span></button></div>
+        </nav>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
